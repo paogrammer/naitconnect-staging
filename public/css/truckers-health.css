@@ -1,0 +1,22 @@
+/* 
+
+body {
+    height: 50vh; 
+    width: 100%;
+    background-image: url('../images/truck-bg.jpg');
+    background-position: center top; 
+    background-repeat: no-repeat;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+  } */
+
+

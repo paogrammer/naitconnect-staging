@@ -1,0 +1,44 @@
+.grid {
+    margin: 0 auto;
+    max-width: 90%;
+    background-color: black;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+
+  }
+  
+  .card-container {
+    position: relative;
+    
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    padding: 1rem;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+  }
+  
+  
+  .description {
+    color: white;
+    
+    display: none;
+    padding: 1rem;
+    margin-top: 1rem;
+    text-align: justify;
+    margin-bottom: 2rem;
+    
+  }
+  
+  .show-description .description {
+    display: block;
+  }
+  

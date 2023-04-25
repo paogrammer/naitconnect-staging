@@ -1,0 +1,29 @@
+{
+  "name": "naitconnect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zorm-us/naitconnect.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zorm-us/naitconnect/issues"
+  },
+  "homepage": "https://github.com/Zorm-us/naitconnect#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "express": "^4.18.2",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.3.1"
+  }
+}

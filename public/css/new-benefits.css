@@ -1,0 +1,32 @@
+
+
+.video-container {
+   
+    text-align:center;
+    margin: auto;
+    align-items: center;
+
+
+}
+
+.blue-button {
+    background-color: #0030A7;
+    color: white;
+    font-weight: bold;
+}
+
+.video-container video {
+    width: 600px;
+    height: 400px;
+}
+
+.text-container p {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.text-container h4 {
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,31 @@
+header {
+  background-color: rgba(0, 0, 0, 0);
+  padding-bottom: 200px;
+}
+
+header.scrolled {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.sidebar {
+  width: 350px;
+  right: 0!important;
+  left:auto!important;
+  background-color: #3e3c3c;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  transition: right 0.3s ease-in-out;
+}
+
+.sidebar.active {
+  
+}
+.sidebar-hidden {
+  transform: translateX(-100%);
+  left: -500%!important;
+}
+
+
+
+
