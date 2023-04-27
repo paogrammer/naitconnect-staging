@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run postcss && npm run tailwind && node server.js",
+    "postcss": "postcss public/css/styles.css -o public/css/styles.css",
+    "tailwind": "tailwindcss -i ./public/css/styles.css -o ./public/css/output.css"
   },
   "repository": {
     "type": "git",
@@ -16,7 +19,6 @@
   "bugs": {
     "url": "https://github.com/Zorm-us/naitconnect/issues"
   },
-  "homepage": "https://github.com/Zorm-us/naitconnect#readme",
   "dependencies": {
     "autoprefixer": "^10.4.14",
     "express": "^4.18.2",
