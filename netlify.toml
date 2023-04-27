@@ -1,6 +1,7 @@
 [build]
-  command = "npm install && npm run build"
+  command = "npm run postcss && npm run tailwind && node server.js"
   publish = "public"
+
 
 [dev]
   command = "npm run start"
